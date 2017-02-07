@@ -1,0 +1,66 @@
+camera cam1
+{
+   pixeldim 640 480
+   worlddim 8 6
+   viewpoint <4,3,4>
+}
+
+material green
+{
+   diffuse 0 1 0
+   ambient 0 5 0
+}
+
+material blue
+{
+   diffuse 0 1 0
+   ambient 0 0 3
+}
+material purple
+{
+   diffuse 0 1 0
+   ambient 3 0 3
+}
+
+material yellow
+{
+   diffuse 4 4 0
+   ambient 5 4 0
+   specular 1 1 1
+}
+
+plane leftwall
+{
+   material green
+   normal <1,0,-0.2>
+   point <0,0,0>
+}
+
+plane rightwall
+{
+   material purple
+   normal <-1,0,-0.2>
+   point <8,0,0>
+}
+
+plane floor
+{
+   material yellow
+   normal <0,1,0>
+   point <0,-0.2,0>
+}
+
+plane backwall
+{
+   material yellow
+   normal <0,0,1>
+   point <0,0,-10>
+}
+
+plane ceiling
+{
+   material blue
+   normal <0,-1,0>
+   point <0,10,0>
+}
+

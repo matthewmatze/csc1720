@@ -1,0 +1,7 @@
+camera cam1
+{
+   pixeldim 640 480
+   worlddim 8 6
+   viewpoint <4,3,4>
+}
+
